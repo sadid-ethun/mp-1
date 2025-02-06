@@ -106,15 +106,18 @@ main {
 }
 
 img {
-    width: 50%;
-    height: 50%;
+    width: 100%;
     margin: 0 3% 3% 0;
 }
 
-#image-wrapper {
+.image-wrapper {
     display: flex;
     justify-content: center;
     margin-bottom: 3%;
+}
+
+.image-wrapper img {
+    width: 50%;
 }
 
 footer {
