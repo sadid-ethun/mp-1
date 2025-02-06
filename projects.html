@@ -9,22 +9,49 @@
 
 <body>
     <header>
-        <h1>Sadid Ethun</h1>
-        <p>My Online Resume</p>
+        <div id="header">
+            <h1>Sadid Ethun</h1>
+            <p id="subtitle">My Online Resume</p>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="references.html">Contact</a></li>
-        </ul>  
-    </nav>
-    <main>
+    <div id="content">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="skills.html">Skills</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Pantry</h3>
+                <p><em>September 2024 – Present</em></p>
+                <p class="description">
+                    Created a full-stack web application using Apache, Python, and SQL, integrating
+                    the Yelp API to provide personalized restaurant recommendations and food recipes based on
+                    user-selected cuisine filters.
+                    Implemented features enabling users to create posts, like and comment on others' posts, and bookmark
+                    restaurants and recipes for personalized user engagement.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Call Assist</h3>
+                <p><em>January 2023 – June 2024</em></p>
+                <p class="description">
+                    Developed a mobile app using React Native and MongoDB to automate phone calls and bypass virtual
+                    receptionists, leveraging the Twilio API for speech-to-text transcription and automated response
+                    generation.
+                    Collaborated weekly with a Google employee to troubleshoot and resolve development challenges,
+                    enhancing app functionality and user experience through expert guidance.
+                </p>
 
-    </main>
+            </div>
+        </main>
+    </div>
     <footer>
         <p>All Rights Reserved by Sadid Ethun <a href="">Credits</a> &copy;</p>
     </footer>

@@ -1,7 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
-    background-color: #1a1a1a;
+    background-color: #303030;
     color: #f0f0f0;
     width: 70%;
     margin: 0 auto;
+    font-family: Poppins, "Helvetica Neue", Arial, sans-serif;
 }
 
+h1 {
+    margin: 0;
+    font-size: calc(4px + 2vw);
+    font-weight: 500;
+}
+
+h2 {
+    margin: 0;
+    font-size: calc(4px + 2.5vw);
+    font-weight: 500;
+    align-self: center;
+    color: #00acfb;
+    margin-bottom: 4%;
+}
+
+h3 {
+    margin: 0;
+    font-size: calc(4px + 1.25vw);
+    font-weight: 500;
+}
+
+p {
+    font-size: calc(4px + 1vw);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    font-size: calc(4px + 1vw);
+    color: #00acfb;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: calc(4px + 1vw);
+}
+
+header {
+    display: flex;
+    background-color: #2b3c5d;
+    padding: 1% 2%;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    width: 30%;
+    background-color: #101010;
+    padding: 1% 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    width: 100%;
+    margin: 0;
+    gap: 3%;
+}
+
+nav a {
+    display: flex;
+    font-size: calc(4px + 1.5vw);
+    background-color: #202020;
+    width: 90%;
+    padding: 5%;
+    border-radius: 5px;
+    color: #f0f0f0;
+}
+
+nav a:hover {
+    color: #00acfb;
+}
+
+main {
+    width: 80%;
+    height: 100vh;
+    padding: 3%;
+    background-color: #202020;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    margin: 0 3% 3% 0;
+}
+
+#image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+footer {
+    background-color: #2b3c5d;
+    padding: 1%;
+}
+
+.school,
+.experience,
+.project,
+.skill {
+    border-left: 0.5vw solid #00acfb;
+    padding-left: 2%;
+    margin-bottom: 5%;
+}
+
+#coursework {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.description {
+    margin-top: 3%;
+}
