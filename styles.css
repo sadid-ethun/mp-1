@@ -90,7 +90,7 @@ nav a {
     background-color: #202020;
     width: 90%;
     padding: 5%;
-    border-radius: 5px;
+    border-radius: 1vw;
     color: #f0f0f0;
 }
 
@@ -128,7 +128,8 @@ footer {
 .school,
 .experience,
 .project,
-.skill {
+.skill,
+.contact {
     border-left: 0.5vw solid #00acfb;
     padding-left: 2%;
     margin-bottom: 5%;
@@ -142,4 +143,80 @@ footer {
 
 .description {
     margin-top: 3%;
+}
+
+table {
+    width: 100%;
+    margin-top: 5%;
+    border-collapse: collapse;
+}
+
+th, tr, td {
+    text-align: left;
+    font-size: calc(4px + 1vw);
+    border: #101010 1px solid;
+    padding: 1%;
+}
+
+th {
+    background-color: #2b3c5d;
+}
+
+td {
+    background-color: #303030;
+}
+
+@media screen and (max-width: 750px) {
+
+    #content {
+        flex-direction: column;
+    }
+
+    main {
+        width: 94%;
+    }
+
+
+    nav {
+        width: 100%;
+        
+    }
+
+    nav ul {
+        flex-direction: row;
+        padding: 1%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 1%;
+    }
+
+    nav li {
+        display: flex;
+        width: 100%;
+        
+    }
+    
+    nav a {
+        display: flex;
+        width: 100%;
+        color: #f0f0f0;     
+        font-size: calc(4px + 1vw);
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .image-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
