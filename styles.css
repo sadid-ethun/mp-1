@@ -151,7 +151,9 @@ table {
     border-collapse: collapse;
 }
 
-th, tr, td {
+th,
+tr,
+td {
     text-align: left;
     font-size: calc(4px + 1vw);
     border: #101010 1px solid;
@@ -179,9 +181,11 @@ td {
     margin-bottom: 3%;
     background-color: #404040;
     border: #101010 1px solid;
-    border-radius: 0.5vw;
+    border-radius: 100vw;
     color: #f0f0f0;
-    padding: 0.5vw 1vw;
+    padding: 0.5vw 1.5vw;
+    font-family: Poppins, "Helvetica Neue", Arial, sans-serif;
+    font-size: calc(4px + 1.5vw);
 }
 
 #inputs {
@@ -192,23 +196,31 @@ td {
 #calculator button {
     padding: 0.5vw 1vw;
     margin-top: 2%;
-    font-size: calc(4px + 1vw);
+    font-size: calc(4px + 1.5vw);
     font-family: Poppins, "Helvetica Neue", Arial, sans-serif;
     background-color: #2b3c5d;
     color: #f0f0f0;
     border: #101010 1px solid;
-    border-radius: 0.5vw;
+    border-radius: 100vw;
 }
 
 #buttons {
     display: flex;
     gap: 1%;
+    margin-bottom: 4%;
 }
 
 #output {
-    margin-top: 5%;
+    margin-top: 1%;
     font-size: calc(4px + 1.5vw);
     font-weight: 500;
+    background-color: #404040;
+    width: 50%;
+    padding: 0.5vw 1.5vw;
+    border-radius: 100vw;
+    height: calc(4px + 3vw);
+    display: flex;
+    align-items: center;
 }
 
 .negative {
@@ -228,7 +240,7 @@ td {
 
     nav {
         width: 100%;
-        
+
     }
 
     nav ul {
@@ -241,13 +253,13 @@ td {
     nav li {
         display: flex;
         width: 100%;
-        
+
     }
-    
+
     nav a {
         display: flex;
         width: 100%;
-        color: #f0f0f0;     
+        color: #f0f0f0;
         font-size: calc(4px + 1vw);
         align-items: center;
         justify-content: center;
