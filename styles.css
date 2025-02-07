@@ -182,6 +182,7 @@ td {
     border-radius: 0.5vw;
     color: #f0f0f0;
     padding: 0.5vw 1vw;
+    font-size: calc(4px + 1vw);
 }
 
 #inputs {
