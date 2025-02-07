@@ -100,7 +100,7 @@ nav a:hover {
 
 main {
     width: 80%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 3%;
     background-color: #202020;
 }
@@ -166,6 +166,55 @@ td {
     background-color: #303030;
 }
 
+#calculator-title {
+    margin-top: 10%;
+}
+
+#calculator {
+    font-size: calc(4px + 1vw);
+}
+
+#calculator input {
+    width: 50%;
+    margin-bottom: 3%;
+    background-color: #404040;
+    border: #101010 1px solid;
+    border-radius: 0.5vw;
+    color: #f0f0f0;
+    padding: 0.5vw 1vw;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+#calculator button {
+    padding: 0.5vw 1vw;
+    margin-top: 2%;
+    font-size: calc(4px + 1vw);
+    font-family: Poppins, "Helvetica Neue", Arial, sans-serif;
+    background-color: #2b3c5d;
+    color: #f0f0f0;
+    border: #101010 1px solid;
+    border-radius: 0.5vw;
+}
+
+#buttons {
+    display: flex;
+    gap: 1%;
+}
+
+#output {
+    margin-top: 5%;
+    font-size: calc(4px + 1.5vw);
+    font-weight: 500;
+}
+
+.negative {
+    color: red;
+}
+
 @media screen and (max-width: 750px) {
 
     #content {
@@ -186,8 +235,6 @@ td {
         flex-direction: row;
         padding: 1%;
         width: 100%;
-        justify-content: center;
-        align-items: center;
         gap: 1%;
     }
 
